@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DMS Features]">
+  <test name="Creation of Demands in DMS">
+    <classes>
+      <class name="Runner.IWO_UST_TestRunner"/>
+    </classes>
+  </test> <!-- Creation of Demands in DMS -->
+</suite> <!-- Failed suite [DMS Features] -->

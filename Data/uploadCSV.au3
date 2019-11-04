@@ -1,0 +1,5 @@
+WinWaitActive("Open")
+Sleep(3000)
+Send("C:\Edge_Networks\EdgeNetworks\Data\Data.csv")
+Sleep(5000)
+Send("{ENTER}")

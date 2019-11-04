@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DMS Features">
+<test name="Creation of Demands in DMS">
+ <classes>
+ <class name="Runner.IWO_UST_TestRunner" >
+ </class>
+  </classes>
+ </test>
+ 
+ </suite>

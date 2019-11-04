@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DMS Features" duration-ms="85917" started-at="2019-10-17T11:38:07Z" finished-at="2019-10-17T11:39:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="IWO_UST_TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.IWO_UST_TestRunner@5c3bd550]" name="feature" class="Runner.IWO_UST_TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Creation of Demands in DMS" duration-ms="85917" started-at="2019-10-17T11:38:07Z" finished-at="2019-10-17T11:39:33Z">
+      <class name="Runner.IWO_UST_TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.IWO_UST_TestRunner@5c3bd550]" name="setUpClass" is-config="true" duration-ms="296" started-at="2019-10-17T17:08:07Z" finished-at="2019-10-17T17:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.IWO_UST_TestRunner@5c3bd550]" name="feature" duration-ms="85268" started-at="2019-10-17T17:08:07Z" description="Runs cucmber Features" data-provider="features" finished-at="2019-10-17T17:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login:- A user should be logged in only if he/she provides correct credentials and valid error messages should be displayed wherever required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:Runner.IWO_UST_TestRunner@5c3bd550]" name="testDownClass" is-config="true" duration-ms="247" started-at="2019-10-17T17:09:33Z" finished-at="2019-10-17T17:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- Runner.IWO_UST_TestRunner -->
+    </test> <!-- Creation of Demands in DMS -->
+  </suite> <!-- DMS Features -->
+</testng-results>

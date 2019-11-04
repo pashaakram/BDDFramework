@@ -1,0 +1,2 @@
+ ➢ Experienced using Automation testing tools like Selenium IDE, Selenium Web Driver using Java 
+ 

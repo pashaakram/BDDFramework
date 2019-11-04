@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="173837" started-at="2019-10-25T09:51:42Z" finished-at="2019-10-25T09:54:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="173837" started-at="2019-10-25T09:51:42Z" finished-at="2019-10-25T09:54:36Z">
+      <class name="com.edgenetworks.excelvalues.ExecutiveDashBoard">
+        <test-method status="PASS" signature="Employee()[pri:0, instance:com.edgenetworks.excelvalues.ExecutiveDashBoard@29ca901e]" name="Employee" duration-ms="173810" started-at="2019-10-25T15:21:42Z" finished-at="2019-10-25T15:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee -->
+      </class> <!-- com.edgenetworks.excelvalues.ExecutiveDashBoard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

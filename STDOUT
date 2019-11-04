@@ -1,0 +1,50 @@
+@ta @ust @dms
+Feature: IWO :- Filter Validation in IWO
+
+  # 	 @ust @dms
+  # 	Scenario Outline: IWO :- Validate All Filter present in iwo page
+  # 		Given User should navigate to Opportunities page.
+  # 		Then User navigates to iwo page.
+  # 		Then Validate the Filters present on iwo page "<Cost_Center>","<Experience_Lower>","<Experience_Upper>","<PayBand>","<Practice>","<RR_Type>","<Visa_Type>"
+  #
+  # 		Examples:
+  # 		| Cost_Center | Experience_Lower | Experience_Upper | PayBand | Practice | RR_Type | Visa_Type |
+  # 		| COST CENTER | EXPERIENCE LOWER | EXPERIENCE UPPER | PAYBAND | PRACTICE | RR TYPE | VISA TYPE |
+  #
+  #
+  # 		 @ust @dms
+  # 	Scenario Outline: IWO :- Select different filters in IWO.
+  # 		Given User should navigate to Opportunities page.
+  #		Then User navigates to iwo page.
+  # 		Then Select any filter "<FilterSelectCost>" ,"<FilterCost>" from drop down.
+  # 		Then Select any filter "<FilterSelectPayBand>" ,"<FilterPayBand>" from drop down.
+  # 		Then Select any filter "<FilterSelectPractice>" ,"<FilterPractice>" from drop down.
+  # 		Then Select any filter "<FilterSelectRRType>" ,"<FilterPayBandRRType>" from drop down.
+  # 		Then Select any filter "<FilterSelectVisa>" ,"<FilterPayVisa>" from drop down.
+  #
+  # 		Examples:
+  # 		 | FilterSelectCost | FilterCost 				     | FilterSelectPayBand | FilterPayBand | FilterSelectPractice | FilterPractice 						  |  FilterSelectRRType |FilterPayBandRRType | FilterSelectVisa | FilterPayVisa |
+  # 		 | cost center	    | FA: Staffing Philly Operations |  payband			   | L2			   | practice             | Enterprise Application Services (EAS) | rr type				| Proactive Hiring   | visa type        | H-1B (US)		|
+  #
+  #
+  @ust @dms
+  Scenario Outline: IWO :- Validate All Filter present in iwo page                                                                # C:/Edge_Networks/EdgeNetworks/src/test/java/DMSFeatures/07_iwoValidation.feature:32
+    Given User should navigate to Opportunities page.
+    Then User navigates to iwo page.
+    Then Select the "<OpenStatus>" from DropDown and validate that same status RR are appearing by clicking on More Details.
+    Then Select the "<OnHoldStatus>" from DropDown and validate that same status RR are appearing by clicking on More Details.
+    Then Select the "<ArchiveStatus>" from DropDown and validate that same status RR are appearing by clicking on More Details.
+    Then Select the "<FulfilledStatus>" from DropDown and validate that same status RR are appearing by clicking on More Details.
+    Then Search for a particular "<RR>" and validate whether the searched RR is present.
+
+    Examples: 
+
+  @dms @ust @ta
+  Scenario Outline: IWO :- Validate All Filter present in iwo page                                                        # C:/Edge_Networks/EdgeNetworks/src/test/java/DMSFeatures/07_iwoValidation.feature:43
+    Given User should navigate to Opportunities page.                                                                     # CreateRR_SFDCStepDefinition.user_should_navigate_to_Opportunities_page()
+    Then User navigates to iwo page.                                                                                      # IWOValidationStepDefinition.user_navigates_to_iwo_page()
+    Then Select the "Open" from DropDown and validate that same status RR are appearing by clicking on More Details.      # IWOValidationStepDefinition.select_the_from_DropDown_and_validate_that_same_status_RR_are_appearing_by_clicking_on_More_Details(String)
+    Then Select the "On-Hold" from DropDown and validate that same status RR are appearing by clicking on More Details.   # IWOValidationStepDefinition.select_the_from_DropDown_and_validate_that_same_status_RR_are_appearing_by_clicking_on_More_Details(String)
+    Then Select the "Archive" from DropDown and validate that same status RR are appearing by clicking on More Details.   # IWOValidationStepDefinition.select_the_from_DropDown_and_validate_that_same_status_RR_are_appearing_by_clicking_on_More_Details(String)
+    Then Select the "Fulfilled" from DropDown and validate that same status RR are appearing by clicking on More Details. # IWOValidationStepDefinition.select_the_from_DropDown_and_validate_that_same_status_RR_are_appearing_by_clicking_on_More_Details(String)
+    Then Search for a particular "1000001123" and validate whether the searched RR is present.                            # IWOValidationStepDefinition.search_for_a_particular_and_validate_whether_the_searched_RR_is_present(String)

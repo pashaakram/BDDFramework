@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.24423">
+<testcase classname="IWO :- Filter Validation in IWO" name="IWO :- Validate All Filter present in iwo page" time="53.24423">
+<system-out><![CDATA[Given User should navigate to Opportunities page............................passed
+Then User navigates to iwo page.............................................passed
+Then Select the "Open" from DropDown and validate that same status RR are appearing by clicking on More Details..passed
+Then Select the "On-Hold" from DropDown and validate that same status RR are appearing by clicking on More Details..passed
+Then Select the "Archive" from DropDown and validate that same status RR are appearing by clicking on More Details..passed
+Then Select the "Fulfilled" from DropDown and validate that same status RR are appearing by clicking on More Details..passed
+Then Search for a particular "1000001123" and validate whether the searched RR is present..passed
+]]></system-out>
+</testcase>
+</testsuite>
